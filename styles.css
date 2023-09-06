@@ -92,18 +92,31 @@ p{
 body{
     background-image: url(../images/A-10-Background.png);
     background-size: cover;
+    display: flexbox;
     background-repeat: no-repeat;
     }
 }
 
 
-@media screen and (max-width: 649px) and (min-width: 321px){
+@media screen and (max-width: 649px) and (min-width: 500px){
     .header{
         display: none;
     }
     body{
         background-image: url(../images/Mobile-Background.png);
         background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .header{
+        display: none;
+    }
+    body{
+        background-image: url(../images/Mobile-Background-Small.png);
+        background-size:cover;
         background-repeat: no-repeat;
     }
 
