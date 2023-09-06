@@ -94,7 +94,7 @@ body{
 }
 
 
-@media screen and (max-width: 649px) and (min-width: 200px){
+@media screen and (max-width: 649px) and (min-width: 321px){
     .header{
         display: none;
     }
