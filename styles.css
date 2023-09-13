@@ -1,24 +1,29 @@
 *{
     text-decoration: none;
+    width: 100vw;
 }
 
 body{
     margin: 0;
     height: 100vh;
-    width: 100%;
-    
+
+
 
 }
 .logo-container{
+    position: absolute;
     height: 15%;
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 .logo{
     padding: 0;
+    padding-top: 10px;
     margin: 0;
     height: 100%;
+    width: auto;
     aspect-ratio: 1.1;
 
 }
@@ -28,29 +33,46 @@ body{
     display: flex;
     height: 15%;
     padding-top: 0;
+    justify-content: space-between;
+
+
+/*DEPRECIATED*/
     
     
 }
 .header{
-    width: 100%;
+    width: 35%;
     height: 100%;
-    position: absolute;
+    display: flex;
+    position: relative;
     font-family: 'Lexend', sans-serif;
     color: white;
-    padding-left: 20px;
     margin-top: 0;
     align-items: center;
-    justify-content: left;
     
-   
-
 }
+
+h1{
+    padding-left: 30px;
+    justify-content: left;
+}
+
+h2{
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+    text-decoration: none;
+    z-index: 200;
+}
+
 .content-container{
     height: 50vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     display: inline-flex;
+
+    
     
     
 }
@@ -71,14 +93,14 @@ body{
    appearance: none;
    border: none;
    border-radius: 0.5rem;
-
-
-
-
 }
 a{
-
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: right;
 }
+
 p{
     display: none;
 }
@@ -90,9 +112,10 @@ p{
 
 }
 body{
+    
     background-image: url(../images/A-10-Background.png);
+    background-position: center top;
     background-size: cover;
-    display: flexbox;
     background-repeat: no-repeat;
     }
 }
@@ -103,7 +126,9 @@ body{
         display: none;
     }
     body{
-        background-image: url(../images/Mobile-Background.png);
+        display: flex;
+        background-image: url(../images/Mobile-Background.png); 
+        background-position: center top;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -116,6 +141,7 @@ body{
     }
     body{
         background-image: url(../images/Mobile-Background-Small.png);
+        background-position: center top;
         background-size:cover;
         background-repeat: no-repeat;
     }
