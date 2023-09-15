@@ -18,6 +18,17 @@ body{
     justify-content: center;
     
 }
+
+.pending{
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
 .logo{
     padding: 0;
     padding-top: 10px;
@@ -104,6 +115,8 @@ a{
 p{
     display: none;
 }
+
+
 
 @media screen and (min-width: 650px) {
 .header{
