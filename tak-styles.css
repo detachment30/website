@@ -1,11 +1,12 @@
 *{
     text-decoration: none;
-    width: 100vw;
+    width: 100%;
 }
 
 body{
     margin: 0;
     height: 100vh;
+    width: 100%;
 
 
 
@@ -47,59 +48,30 @@ body{
     height: 15%;
     padding-top: 0;
     justify-content: space-between;
+    
   
 
 
 }
 
-/*DEPRECIATED*/  
+/*DEPRECIATED*/ 
 
-.header{
-    width: 35%;
-    height: 100%;
+.content{
     display: flex;
-    position: relative;
-    font-family: 'Lexend', sans-serif;
-    color: white;
-    margin-top: 0;
-    align-items: center;
-    
-    
 }
 
-h1{
-    padding-left: 30px;
-    justify-content: left;
-}
-
-h2{
-    display: flex;
-    justify-content: right;
-    padding-right: 30px;
-    text-decoration: none;
-    z-index: 200;
-}
-
-.content-container{
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    display: inline-flex;
-
-    
-    
-    
-}
+/*
 .spacer{
     display: flex;
     justify-content: center;
-
+    align-content: center;
+    border: 10px solid orange;
     padding-top: calc(50vh / 8);
     padding-bottom: calc(50vh / 8);
 
 }
 /*
+
 .buttons{
    background: none;
    color: white;
@@ -131,13 +103,14 @@ h2{
 .buttons:hover{
     opacity: 100%;
 }
-
+/*
 a{
     display: flex;
     text-decoration: none;
     color: white;
     justify-content: right;
 }
+*/
 
 p{
     display: flex;
