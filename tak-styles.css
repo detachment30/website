@@ -115,7 +115,7 @@ body{
 
     .logo{
 
-        aspect-ratio: 1;
+        aspect-ratio: 1.1;
 
     }
 
@@ -135,12 +135,12 @@ body{
 
 
     .stack{
-        margin-top: 20vh;
+        margin-top: 10vh;
         padding-top: 20%;
     }
 
     .buttons{ 
-        margin-top: 10vh;
+        margin-top: 8vh;
         width: 50%;
         padding: 10px;
     }
@@ -154,7 +154,7 @@ body{
 
     .logo{
 
-        aspect-ratio: auto;
+        aspect-ratio: 1.1;
 
     }
 
